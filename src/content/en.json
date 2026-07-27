@@ -4,86 +4,76 @@
   "nav_contact": "Contact",
   "nav_cta": "Get in touch",
 
-  "hero_label": "AI & Product Consultant",
-  "hero_title": "AI that works.\nResults you can measure.",
-  "hero_subtitle": "I help startups, scale-ups and SMEs implement artificial intelligence — from audit and roadmap to working solution and team adoption.",
-  "hero_cta_primary": "Let's talk",
+  "hero_label": "AI · Product · Operations consultant",
+  "hero_title": "AI that reaches production — not just a pilot.",
+  "hero_subtitle": "I help startups, scale-ups and SMEs in Spain and the EU turn AI from an idea into working processes with measurable results.",
+  "hero_cta_primary": "Get in touch",
   "hero_cta_secondary": "Explore services",
 
-  "about_title": "About me",
-  "about_intro": "Product and technology executive with 10+ years of experience in AI, digital products and business transformation.",
-  "about_body": "I bridge the gap between business goals and technical execution — something most consultants can't offer. My work is backed by real experience: launching 10+ AI solutions in production, scaling digital products to millions of users, and leading strategy from Series C fundraising to team restructuring.",
+  "about_title": "Strategy and hands-on delivery, from the same person.",
+  "about_intro": "I am a product and technology executive with over ten years of experience across B2C, B2B, B2B2C, platforms and AI/ML. As Director of AI at Finom, a European neobank for SMEs, I built the AI function from scratch, defined an AI-first strategy and shipped more than ten production solutions — from document processing to agentic systems for customer support, transaction monitoring and client verification.",
+  "about_body": "Before that, as Director of Products at Tinkoff, I led a B2B2C business unit with 10M+ monthly active users, 1,000+ partners and a team of 150+, growing annual revenue 1.5× to the $100M mark. Most of the market sits at one extreme: large consultancies bring strategy without execution, freelance developers execute without business context. I cover the whole cycle — audit, roadmap, working solution, team training.",
   "about_location": "Based in Tarragona, Catalonia. Working remotely across Spain and the EU.",
   "about_creds": [
     { "k": "10+ years", "t": "Product, technology and management", "d": "Executive roles building and leading product organisations, most recently as Director of AI in a European neobank." },
     { "k": "0 → 1 and scale-up", "t": "Startup speed, enterprise scale", "d": "Shipping from zero inside small teams, and running products used by millions — one business unit grown 1.5× to a nine-figure revenue run-rate." },
     { "k": "Dozens of AI solutions", "t": "Assistants, automation, monitoring", "d": "Chatbots and internal assistants, customer support, document and back-office processing, quality and risk monitoring — all running in production, not in demos." }
   ],
-  "companies_label": "Worked at and with",
-  "about_highlights": [
-    "Director of AI, Finom — built the AI function from scratch in a European neobank, launched 10+ AI solutions including agentic systems. Participated in $100M+ Series C fundraising.",
-    "Director of Products, Tinkoff — led B2B2C unit with 10M+ MAU and 1,000+ partners. Grew annual revenue 1.5× to $100M.",
-    "Mentor at GoPractice — teaching product management in AI/ML to managers across the industry.",
-    "MIPT graduate — Applied Physics, Mathematics & Computer Science + MSc in Venture Capital & Tech Entrepreneurship."
+  "about_diffs": [
+    { "t": "Technical foundation", "d": "Applied physics, mathematics and computer science at MIPT — a working understanding of algorithms, data and system architecture, not just off-the-shelf tools." },
+    { "t": "Scale and startup speed", "d": "High-load products with millions of users, and hands-on work inside small startup teams where one person ships end to end." },
+    { "t": "Measurable outcome, not tooling", "d": "Every stage has a deliverable and a target metric. You end up with something your team can run without me." }
   ],
+  "companies_label": "Worked at and with",
 
-  "services_title": "Services",
-  "services_subtitle": "From audit to implementation — I cover the full cycle so you don't need to hire a team.",
+  "testimonials_label": "What clients say",
+  "testimonial_quote": "Had a great time working with Sergey at Finom! He was a Head of AI who basically took our AI initiatives from zero to one, launching several AI agents even when we had pretty limited resources. He's super into numbers and data, and it shows in everything he does. Definitely recommend him for any data-driven challenge!",
+  "testimonial_author": "Ivo Dimitrov",
+  "testimonial_role": "Co-founder and Chief AI Officer, Finom",
+
+  "services_title": "Six ways I can help.",
+  "services_subtitle": "Remote, project-based work with a clear deliverable at every stage.",
   "services": [
     {
       "title": "AI Consulting & Audit",
-      "description": "Analyse your business processes, identify automation opportunities, prioritise by ROI. Deliverable: an AI implementation roadmap with tools, timeline and expected impact.",
+      "description": "Analysis of your workflows, identification of the tasks with the highest automation potential and prioritisation by expected ROI.",
+      "result": "AI adoption roadmap with tools, stages and expected effect.",
       "icon": "search"
     },
     {
-      "title": "AI Solution Development",
-      "description": "Design and build LLM-based solutions: assistants, chatbots, support agents, RAG systems, CRM integrations. Tools: Python, Anthropic/OpenAI APIs, cloud infrastructure.",
+      "title": "AI Solution Design & Build",
+      "description": "LLM-based assistants, chatbots, support agents, RAG systems and integrations with your CRM and internal systems. Python, Anthropic and OpenAI APIs, cloud infrastructure.",
+      "result": "Working prototype or deployed solution with documentation.",
       "icon": "code"
     },
     {
-      "title": "AI Process Automation",
-      "description": "Set up AI tools and no/low-code automations — document processing, email assistant, content generation, data analysis agents. Configured for your workflow, ready to use independently.",
+      "title": "Process Automation with AI",
+      "description": "Setup and rollout of AI tooling and automations — document processing, email assistant, content generation, data analysis agents — on no/low-code platforms.",
+      "result": "Tool configured to your case, ready for autonomous use.",
       "icon": "zap"
     },
     {
       "title": "AI Quality Analytics",
-      "description": "Build evaluation sets, quality dashboards (resolution rate, CSAT, LLM-as-judge, error rate, latency), production data analysis and feedback loop for continuous improvement.",
+      "description": "Evaluation sets, quality dashboards (resolution rate, CSAT, LLM-as-judge, error rate, latency), production data analysis and a closed feedback loop for continuous improvement.",
+      "result": "Metric system and regular quality evaluation.",
       "icon": "chart"
     },
     {
       "title": "Digital Product Consulting",
-      "description": "Implement product processes (discovery, delivery, OKR, roadmaps), guide new product launches. Available as fractional CPO / Head of AI for early-stage teams.",
+      "description": "Product processes (discovery, delivery, OKR, roadmaps), support for new product launches, and fractional CPO / Head of AI leadership for early-stage teams.",
+      "result": "Structured processes, product strategy, support to the result.",
       "icon": "layers"
     },
     {
-      "title": "Team Building & Training",
-      "description": "Build and restructure cross-functional teams, run AI/ML product management workshops and mentoring sessions. Deliverable: trained team, working methodology, materials.",
+      "title": "Org Design & Team Training",
+      "description": "Building and restructuring cross-functional teams, workshops and mentoring on product management in AI/ML.",
+      "result": "Trained team, working methodology, training materials.",
       "icon": "users"
     }
   ],
 
-  "why_title": "Why work with me",
-  "why_items": [
-    {
-      "title": "Full-cycle: strategy to implementation",
-      "description": "Most consultants do one or the other. I cover the full cycle — from audit and roadmap to working solution and team adoption — so nothing falls through the cracks."
-    },
-    {
-      "title": "AI in production, not demos",
-      "description": "Customer support automation, intelligent chatbots, AI agents for repetitive workflows, recommendation engines, document processing, accounting automation — real applications built and running in production."
-    },
-    {
-      "title": "Measurable results, not just tools",
-      "description": "Every engagement starts with the business problem. Each stage has a clear deliverable and a measurable objective. The client receives a solution they can use independently."
-    },
-    {
-      "title": "Current tech stack",
-      "description": "LLMs, RAG, agentic systems — the approaches that are just now reaching SMEs. Early adoption is your competitive edge, and I make it accessible."
-    }
-  ],
-
-  "contact_title": "Get in touch",
-  "contact_subtitle": "Tell me about your business and what you'd like to automate or improve. I'll get back to you within 24 hours.",
+  "contact_title": "Let's talk about your case.",
+  "contact_subtitle": "Tell me the process you want to improve and I will come back with a first view on where AI actually pays off.",
   "contact_email_label": "Email",
   "contact_email": "kolesnikov@phystech.edu",
   "contact_cta": "Send an email",
@@ -100,7 +90,7 @@
   "form_submit": "Send request",
   "form_success": "Thank you! I'll get back to you within 24 hours.",
 
-  "footer_tagline": "AI & Product Consultant",
+  "footer_tagline": "AI · Product · Operations consultant",
   "footer_location": "Tarragona, Catalonia, Spain",
   "footer_rights": "All rights reserved."
 }
