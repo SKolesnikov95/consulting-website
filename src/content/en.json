@@ -14,6 +14,12 @@
   "about_intro": "Product and technology executive with 10+ years of experience in AI, digital products and business transformation.",
   "about_body": "I bridge the gap between business goals and technical execution — something most consultants can't offer. My work is backed by real experience: launching 10+ AI solutions in production, scaling digital products to millions of users, and leading strategy from Series C fundraising to team restructuring.",
   "about_location": "Based in Tarragona, Catalonia. Working remotely across Spain and the EU.",
+  "about_creds": [
+    { "k": "10+ years", "t": "Product, technology and management", "d": "Executive roles building and leading product organisations, most recently as Director of AI in a European neobank." },
+    { "k": "0 → 1 and scale-up", "t": "Startup speed, enterprise scale", "d": "Shipping from zero inside small teams, and running products used by millions — one business unit grown 1.5× to a nine-figure revenue run-rate." },
+    { "k": "Dozens of AI solutions", "t": "Assistants, automation, monitoring", "d": "Chatbots and internal assistants, customer support, document and back-office processing, quality and risk monitoring — all running in production, not in demos." }
+  ],
+  "companies_label": "Worked at and with",
   "about_highlights": [
     "Director of AI, Finom — built the AI function from scratch in a European neobank, launched 10+ AI solutions including agentic systems. Participated in $100M+ Series C fundraising.",
     "Director of Products, Tinkoff — led B2B2C unit with 10M+ MAU and 1,000+ partners. Grew annual revenue 1.5× to $100M.",

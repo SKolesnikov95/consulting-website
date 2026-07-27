@@ -82,7 +82,7 @@ const icons: Record<string, string> = {
       </div>
     </div>
 
-    <div class="about-top fade-in">
+    <div class="about-lead fade-in">
       <p class="about-intro">
         <span class="en">{en.about_intro}</span>
         <span class="es">{es.about_intro}</span>
@@ -93,24 +93,23 @@ const icons: Record<string, string> = {
       </p>
     </div>
 
-    <div class="career-grid">
-      {en.about_highlights.map((item, i) => {
-        const parts = item.split(' — ');
-        const esParts = es.about_highlights[i].split(' — ');
-        return (
-          <div class="career-card fade-in">
-            <span class="career-num">0{i + 1}</span>
-            <div class="career-role">
-              <span class="en">{parts[0]}</span>
-              <span class="es">{esParts[0]}</span>
-            </div>
-            <p class="career-desc">
-              <span class="en">{parts[1]}</span>
-              <span class="es">{esParts[1]}</span>
-            </p>
+    <div class="creds-grid">
+      {en.about_creds.map((cred, i) => (
+        <div class="cred-card fade-in">
+          <div class="cred-key">
+            <span class="en">{cred.k}</span>
+            <span class="es">{es.about_creds[i].k}</span>
           </div>
-        );
-      })}
+          <h3 class="cred-title">
+            <span class="en">{cred.t}</span>
+            <span class="es">{es.about_creds[i].t}</span>
+          </h3>
+          <p class="cred-desc">
+            <span class="en">{cred.d}</span>
+            <span class="es">{es.about_creds[i].d}</span>
+          </p>
+        </div>
+      ))}
     </div>
 
     <div class="about-location fade-in">
@@ -176,6 +175,30 @@ const icons: Record<string, string> = {
           </p>
         </div>
       ))}
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ COMPANIES ════════════════════════════ -->
+<section class="section companies-section">
+  <div class="container">
+    <div class="section-label fade-in" style="margin-bottom:24px;">
+      <span class="en">{en.companies_label}</span>
+      <span class="es">{es.companies_label}</span>
+    </div>
+    <div class="logos-grid fade-in">
+      <div class="logo-card">
+        <img src="/assets/logo-tinkoff-mono.png" alt="Tinkoff" style="max-height:46px;" />
+      </div>
+      <div class="logo-card">
+        <img src="/assets/logo-finom-mono.png" alt="Finom" style="max-height:26px;" />
+      </div>
+      <div class="logo-card">
+        <img src="/assets/logo-nebius-mono.png" alt="Nebius" style="max-height:22px;" />
+      </div>
+      <div class="logo-card">
+        <img src="/assets/logo-extruct-mono.png" alt="Extruct AI" style="max-height:22px;" />
+      </div>
     </div>
   </div>
 </section>
@@ -498,8 +521,8 @@ nav {
 .section-subtitle {
   font-size: 1.05rem;
   color: #6e6e73;
-  max-width: 580px;
   line-height: 1.6;
+  max-width: 680px;
 }
 
 /* ─── Hero ─── */
@@ -595,7 +618,7 @@ nav {
 }
 
 /* ─── About ─── */
-.about-top {
+.about-lead {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
@@ -612,43 +635,46 @@ nav {
   color: #6e6e73;
   line-height: 1.72;
 }
-.career-grid {
+.creds-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-bottom: 24px;
-}
-.career-card {
-  background: #fff;
-  border-radius: 16px;
-  padding: 18px 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin-bottom: 28px;
   border: 1px solid #e8e8ed;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.cred-card {
+  background: #fff;
+  padding: 32px 28px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  transition: box-shadow 0.25s, transform 0.25s;
+  gap: 10px;
+  border-right: 1px solid #e8e8ed;
+  transition: background 0.2s;
 }
-.career-card:hover {
-  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
-  transform: translateY(-2px);
-}
-.career-num {
-  font-size: 0.68rem;
-  font-weight: 800;
+.cred-card:last-child { border-right: none; }
+.cred-card:hover { background: #fafafa; }
+.cred-key {
+  font-size: 0.72rem;
+  font-weight: 700;
   color: #0071e3;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
 }
-.career-role {
-  font-size: 0.88rem;
+.cred-title {
+  font-size: 1.08rem;
   font-weight: 600;
   color: #1d1d1f;
-  line-height: 1.3;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.016em;
+  line-height: 1.25;
+  margin: 0;
 }
-.career-desc {
-  font-size: 0.78rem;
+.cred-desc {
+  font-size: 0.875rem;
   color: #6e6e73;
-  line-height: 1.6;
+  line-height: 1.58;
+  margin: 0;
 }
 .about-location {
   font-size: 0.83rem;
@@ -657,6 +683,34 @@ nav {
   align-items: center;
   gap: 6px;
 }
+
+/* ─── Companies / logos ─── */
+.companies-section { padding: 52px 0; }
+.logos-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+.logo-card {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.07);
+  border-radius: 16px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 22px;
+  transition: box-shadow 0.2s;
+}
+.logo-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.07); }
+.logo-card img {
+  max-width: 100%;
+  object-fit: contain;
+  opacity: 0.65;
+  filter: grayscale(100%);
+  transition: opacity 0.2s;
+}
+.logo-card:hover img { opacity: 0.9; }
 
 /* ─── Services ─── */
 .services-grid {
@@ -1031,17 +1085,20 @@ footer {
   .hero-text { align-items: center; text-align: center; }
   .hero-subtitle { margin-left: auto; margin-right: auto; }
   .hero-ctas { justify-content: center; }
-  .about-top { grid-template-columns: 1fr; gap: 16px; }
-  .career-grid { grid-template-columns: repeat(2, 1fr); }
+  .about-lead { grid-template-columns: 1fr; gap: 16px; }
+  .creds-grid { grid-template-columns: 1fr; border-radius: 16px; }
+  .cred-card { border-right: none; border-bottom: 1px solid #e8e8ed; }
+  .cred-card:last-child { border-bottom: none; }
+  .logos-grid { grid-template-columns: repeat(2, 1fr); }
   .services-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 620px) {
   .section { padding: 72px 0; }
   .hero { padding: 100px 0 72px; }
-  .career-grid { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: 1fr; }
   .why-grid { grid-template-columns: 1fr; }
+  .logos-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-inner { flex-direction: column; text-align: center; gap: 8px; }
   .contact-card { width: 100%; max-width: 360px; }
   .form-wrapper { margin-top: 48px; }

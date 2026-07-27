@@ -14,6 +14,12 @@
   "about_intro": "Directivo de producto y tecnología con más de 10 años de experiencia en IA, productos digitales y transformación de negocio.",
   "about_body": "Cubro el espacio entre los objetivos de negocio y la ejecución técnica — algo que la mayoría de consultores no puede ofrecer. Mi trabajo se apoya en experiencia real: el lanzamiento de más de 10 soluciones de IA en producción, el escalado de productos digitales a millones de usuarios y la dirección estratégica desde rondas Series C hasta reestructuraciones de equipo.",
   "about_location": "Basado en Tarragona, Cataluña. Trabajo de forma remota en toda España y la UE.",
+  "about_creds": [
+    { "k": "+10 años", "t": "Producto, tecnología y management", "d": "Roles directivos construyendo y liderando organizaciones de producto, el más reciente como Director of AI en un neobanco europeo." },
+    { "k": "0 → 1 y scale-up", "t": "Velocidad de startup, escala de empresa", "d": "Lanzar desde cero en equipos pequeños y dirigir productos usados por millones: una unidad de negocio multiplicada por 1,5 hasta una facturación de nueve cifras." },
+    { "k": "Decenas de soluciones de IA", "t": "Asistentes, automatización, monitorización", "d": "Chatbots y asistentes internos, atención al cliente, procesamiento de documentos y back-office, monitorización de calidad y riesgo: todo en producción, no en demos." }
+  ],
+  "companies_label": "He trabajado en y con",
   "about_highlights": [
     "Director of AI, Finom — construí la función de IA desde cero en un neobanco europeo, lancé más de 10 soluciones de IA incluyendo sistemas agénticos. Participé en la ronda Series C de más de 100M$.",
     "Director of Products, Tinkoff — lideré la unidad B2B2C con más de 10M de usuarios activos mensuales y más de 1.000 socios. Crecimiento de ingresos 1,5× hasta los 100M$.",
