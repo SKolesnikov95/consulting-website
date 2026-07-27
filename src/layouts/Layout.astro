@@ -4,9 +4,12 @@ interface Props {
   description?: string;
 }
 const {
-  title = "Sergei Kolesnikov — AI & Product Consultant",
-  description = "AI & Digital Product Consultant. Helping startups and SMEs implement AI that creates real business value. Based in Tarragona, Spain."
+  title = "Sergei Kolesnikov — AI, Product & Operations Consultant",
+  description = "I help startups, scale-ups and SMEs in Spain and the EU turn AI into working processes with measurable results."
 } = Astro.props;
+
+const SITE_URL = "https://skolesnikov.netlify.app";
+const ogImage = `${SITE_URL}/photo.jpg`;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -15,13 +18,29 @@ const {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
   <meta name="description" content={description} />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={SITE_URL} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:type" content="website" />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="1000" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 </head>
 <body>
   <slot />
