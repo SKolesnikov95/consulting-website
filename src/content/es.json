@@ -1,0 +1,126 @@
+{
+  "nav_services": "Servicios",
+  "nav_about": "Sobre mí",
+  "nav_pricing": "Precios",
+  "nav_contact": "Contacto",
+  "nav_cta": "Hablemos",
+
+  "hero_label": "Consultor de IA y Producto Digital",
+  "hero_title": "IA que funciona.\nResultados que se miden.",
+  "hero_subtitle": "Ayudo a startups, scale-ups y pymes a implementar inteligencia artificial — desde la auditoría y la hoja de ruta hasta la solución en funcionamiento y la adopción del equipo.",
+  "hero_cta_primary": "Hablemos",
+  "hero_cta_secondary": "Ver servicios",
+
+  "about_title": "Sobre mí",
+  "about_intro": "Directivo de producto y tecnología con más de 10 años de experiencia en IA, productos digitales y transformación de negocio.",
+  "about_body": "Cubro el espacio entre los objetivos de negocio y la ejecución técnica — algo que la mayoría de consultores no puede ofrecer. Mi trabajo se apoya en experiencia real: el lanzamiento de más de 10 soluciones de IA en producción, el escalado de productos digitales a millones de usuarios y la dirección estratégica desde rondas Series C hasta reestructuraciones de equipo.",
+  "about_location": "Basado en Tarragona, Cataluña. Trabajo de forma remota en toda España y la UE.",
+  "about_highlights": [
+    "Director of AI, Finom — construí la función de IA desde cero en un neobanco europeo, lancé más de 10 soluciones de IA incluyendo sistemas agénticos. Participé en la ronda Series C de más de 100M$.",
+    "Director of Products, Tinkoff — lideré la unidad B2B2C con más de 10M de usuarios activos mensuales y más de 1.000 socios. Crecimiento de ingresos 1,5× hasta los 100M$.",
+    "Mentor en GoPractice — formación en gestión de producto en el ámbito de la IA/ML para managers de toda la industria.",
+    "Graduado del MIPT — Física Aplicada, Matemáticas e Informática + Máster en Capital Riesgo y Emprendimiento Tecnológico."
+  ],
+
+  "services_title": "Servicios",
+  "services_subtitle": "De la auditoría a la implantación — cubro el ciclo completo para que no necesites contratar un equipo.",
+  "services": [
+    {
+      "title": "Consultoría y Auditoría de IA",
+      "description": "Analizo los procesos de negocio, identifico oportunidades de automatización y las priorizo por ROI. Resultado: hoja de ruta de implantación de IA con herramientas, plazos e impacto esperado.",
+      "icon": "search"
+    },
+    {
+      "title": "Desarrollo de Soluciones de IA",
+      "description": "Diseño y desarrollo de soluciones basadas en LLM: asistentes, chatbots, agentes de soporte, sistemas RAG, integraciones con CRM. Herramientas: Python, APIs de Anthropic/OpenAI, infraestructura cloud.",
+      "icon": "code"
+    },
+    {
+      "title": "Automatización de Procesos con IA",
+      "description": "Configuro herramientas de IA y automatizaciones no/low-code — procesamiento de documentos, asistente de correo, generación de contenido, análisis de datos. Listo para usar de forma autónoma.",
+      "icon": "zap"
+    },
+    {
+      "title": "Analítica de Calidad de IA",
+      "description": "Elaboración de conjuntos de evaluación, cuadros de mando de calidad (resolution rate, CSAT, LLM-as-judge, error rate, latencia), análisis de producción y ciclo de mejora continua.",
+      "icon": "chart"
+    },
+    {
+      "title": "Consultoría en Producto Digital",
+      "description": "Implantación de procesos de producto (discovery, delivery, OKR, hojas de ruta), acompañamiento en lanzamientos. Disponible como CPO fraccional / Head of AI para equipos en fase temprana.",
+      "icon": "layers"
+    },
+    {
+      "title": "Diseño Organizativo y Formación",
+      "description": "Construcción y reestructuración de equipos multifuncionales, talleres y mentoría en gestión de producto en IA/ML. Resultado: equipo formado, metodología implantada, materiales de formación.",
+      "icon": "users"
+    }
+  ],
+
+  "why_title": "¿Por qué trabajar conmigo?",
+  "why_items": [
+    {
+      "title": "Ciclo completo: de la estrategia a la implantación",
+      "description": "La mayoría de los consultores hacen una cosa u otra. Yo cubro el ciclo completo — desde la auditoría y la hoja de ruta hasta la solución en funcionamiento y la adopción del equipo."
+    },
+    {
+      "title": "IA a escala real",
+      "description": "Más de 10 soluciones de IA lanzadas en producción en Finom. Más de 10M de usuarios mensuales en Tinkoff. Sé cómo se comporta la IA no en demostraciones, sino bajo carga real de producción."
+    },
+    {
+      "title": "Resultados medibles, no solo herramientas",
+      "description": "Cada encargo parte del problema de negocio. Cada etapa tiene un entregable claro y un objetivo medible. El cliente recibe una solución que puede utilizar de forma autónoma."
+    },
+    {
+      "title": "Stack tecnológico actual",
+      "description": "LLMs, RAG, sistemas agénticos — enfoques que apenas empiezan a llegar a las pymes. Adoptar pronto es tu ventaja competitiva, y yo lo hago accesible."
+    }
+  ],
+
+  "pricing_title": "Precios",
+  "pricing_subtitle": "Un umbral de entrada bajo y un camino natural hacia proyectos de mayor envergadura.",
+  "pricing_items": [
+    {
+      "title": "Consultoría por Horas",
+      "price": "desde 100 €/h",
+      "description": "Consultas puntuales, auditorías y tareas específicas.",
+      "highlight": false
+    },
+    {
+      "title": "Plan de Implantación de IA",
+      "price": "Precio cerrado",
+      "description": "Diagnóstico de procesos, selección de herramientas, plan por fases con ROI esperado.",
+      "highlight": false
+    },
+    {
+      "title": "Configuración de Herramientas de IA",
+      "price": "desde 700 €",
+      "description": "Una solución de IA configurada — asistente, automatización o agente — adaptada a tu flujo de trabajo.",
+      "highlight": true
+    },
+    {
+      "title": "Prototipo / Solución de IA",
+      "price": "desde 2.500 €",
+      "description": "Desarrollo completo de un prototipo funcional o solución de IA implantada con documentación.",
+      "highlight": false
+    },
+    {
+      "title": "Acompañamiento (Retainer)",
+      "price": "Cuota mensual",
+      "description": "Soporte continuado, mejoras y evolución de tus soluciones de IA.",
+      "highlight": false
+    }
+  ],
+
+  "contact_title": "Hablemos",
+  "contact_subtitle": "Cuéntame sobre tu negocio y qué te gustaría automatizar o mejorar. Te respondo en menos de 24 horas.",
+  "contact_email_label": "Email",
+  "contact_email": "kolesnikovser1995@gmail.com",
+  "contact_cta": "Enviar email",
+  "contact_linkedin_label": "LinkedIn",
+  "contact_linkedin": "Conectar en LinkedIn",
+
+  "footer_tagline": "Consultor de IA y Producto Digital",
+  "footer_location": "Tarragona, Cataluña, España",
+  "footer_rights": "Todos los derechos reservados."
+}

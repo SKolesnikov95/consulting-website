@@ -1,0 +1,126 @@
+{
+  "nav_services": "Services",
+  "nav_about": "About",
+  "nav_pricing": "Pricing",
+  "nav_contact": "Contact",
+  "nav_cta": "Get in touch",
+
+  "hero_label": "AI & Product Consultant",
+  "hero_title": "AI that works.\nResults you can measure.",
+  "hero_subtitle": "I help startups, scale-ups and SMEs implement artificial intelligence — from audit and roadmap to working solution and team adoption.",
+  "hero_cta_primary": "Let's talk",
+  "hero_cta_secondary": "Explore services",
+
+  "about_title": "About me",
+  "about_intro": "Product and technology executive with 10+ years of experience in AI, digital products and business transformation.",
+  "about_body": "I bridge the gap between business goals and technical execution — something most consultants can't offer. My work is backed by real experience: launching 10+ AI solutions in production, scaling digital products to millions of users, and leading strategy from Series C fundraising to team restructuring.",
+  "about_location": "Based in Tarragona, Catalonia. Working remotely across Spain and the EU.",
+  "about_highlights": [
+    "Director of AI, Finom — built the AI function from scratch in a European neobank, launched 10+ AI solutions including agentic systems. Participated in $100M+ Series C fundraising.",
+    "Director of Products, Tinkoff — led B2B2C unit with 10M+ MAU and 1,000+ partners. Grew annual revenue 1.5× to $100M.",
+    "Mentor at GoPractice — teaching product management in AI/ML to managers across the industry.",
+    "MIPT graduate — Applied Physics, Mathematics & Computer Science + MSc in Venture Capital & Tech Entrepreneurship."
+  ],
+
+  "services_title": "Services",
+  "services_subtitle": "From audit to implementation — I cover the full cycle so you don't need to hire a team.",
+  "services": [
+    {
+      "title": "AI Consulting & Audit",
+      "description": "Analyse your business processes, identify automation opportunities, prioritise by ROI. Deliverable: an AI implementation roadmap with tools, timeline and expected impact.",
+      "icon": "search"
+    },
+    {
+      "title": "AI Solution Development",
+      "description": "Design and build LLM-based solutions: assistants, chatbots, support agents, RAG systems, CRM integrations. Tools: Python, Anthropic/OpenAI APIs, cloud infrastructure.",
+      "icon": "code"
+    },
+    {
+      "title": "AI Process Automation",
+      "description": "Set up AI tools and no/low-code automations — document processing, email assistant, content generation, data analysis agents. Configured for your workflow, ready to use independently.",
+      "icon": "zap"
+    },
+    {
+      "title": "AI Quality Analytics",
+      "description": "Build evaluation sets, quality dashboards (resolution rate, CSAT, LLM-as-judge, error rate, latency), production data analysis and feedback loop for continuous improvement.",
+      "icon": "chart"
+    },
+    {
+      "title": "Digital Product Consulting",
+      "description": "Implement product processes (discovery, delivery, OKR, roadmaps), guide new product launches. Available as fractional CPO / Head of AI for early-stage teams.",
+      "icon": "layers"
+    },
+    {
+      "title": "Team Building & Training",
+      "description": "Build and restructure cross-functional teams, run AI/ML product management workshops and mentoring sessions. Deliverable: trained team, working methodology, materials.",
+      "icon": "users"
+    }
+  ],
+
+  "why_title": "Why work with me",
+  "why_items": [
+    {
+      "title": "Full-cycle: strategy to implementation",
+      "description": "Most consultants do one or the other. I cover the full cycle — from audit and roadmap to working solution and team adoption — so nothing falls through the cracks."
+    },
+    {
+      "title": "AI at real scale",
+      "description": "10+ AI solutions launched in production at Finom. 10M+ monthly users at Tinkoff. I know how AI behaves not in demos, but under real production load."
+    },
+    {
+      "title": "Measurable results, not just tools",
+      "description": "Every engagement starts with the business problem. Each stage has a clear deliverable and a measurable objective. The client receives a solution they can use independently."
+    },
+    {
+      "title": "Current tech stack",
+      "description": "LLMs, RAG, agentic systems — the approaches that are just now reaching SMEs. Early adoption is your competitive edge, and I make it accessible."
+    }
+  ],
+
+  "pricing_title": "Pricing",
+  "pricing_subtitle": "A low threshold to start, a natural path to larger engagements.",
+  "pricing_items": [
+    {
+      "title": "Hourly Consulting",
+      "price": "from €100/h",
+      "description": "One-off consultations, audits and specific tasks.",
+      "highlight": false
+    },
+    {
+      "title": "AI Roadmap",
+      "price": "Fixed price",
+      "description": "Process diagnosis, tool selection, phased implementation plan with expected ROI.",
+      "highlight": false
+    },
+    {
+      "title": "AI Tools Setup",
+      "price": "from €700",
+      "description": "A configured AI solution — assistant, automation, or agent — tailored to your workflow.",
+      "highlight": true
+    },
+    {
+      "title": "AI Prototype / Solution",
+      "price": "from €2,500",
+      "description": "Full development of a functional prototype or deployed AI solution with documentation.",
+      "highlight": false
+    },
+    {
+      "title": "Retainer",
+      "price": "Monthly fee",
+      "description": "Ongoing support, improvements and evolution of your AI solutions.",
+      "highlight": false
+    }
+  ],
+
+  "contact_title": "Let's talk",
+  "contact_subtitle": "Tell me about your business and what you'd like to automate or improve. I'll get back to you within 24 hours.",
+  "contact_email_label": "Email",
+  "contact_email": "kolesnikovser1995@gmail.com",
+  "contact_cta": "Send an email",
+  "contact_linkedin_label": "LinkedIn",
+  "contact_linkedin": "Connect on LinkedIn",
+
+  "footer_tagline": "AI & Product Consultant",
+  "footer_location": "Tarragona, Catalonia, Spain",
+  "footer_rights": "All rights reserved."
+}

@@ -1,0 +1,149 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: "content"
+    label: "Website Content"
+    files:
+
+      - name: "english"
+        label: "🇬🇧 English Content"
+        file: "src/content/en.json"
+        fields:
+          - { name: nav_services, label: "Nav: Services", widget: string }
+          - { name: nav_about, label: "Nav: About", widget: string }
+          - { name: nav_pricing, label: "Nav: Pricing", widget: string }
+          - { name: nav_contact, label: "Nav: Contact", widget: string }
+          - { name: nav_cta, label: "Nav: CTA Button", widget: string }
+
+          - { name: hero_label, label: "Hero: Label (small text above title)", widget: string }
+          - { name: hero_title, label: "Hero: Title (use \\n for line break)", widget: string }
+          - { name: hero_subtitle, label: "Hero: Subtitle", widget: text }
+          - { name: hero_cta_primary, label: "Hero: Primary Button", widget: string }
+          - { name: hero_cta_secondary, label: "Hero: Secondary Button", widget: string }
+
+          - { name: about_title, label: "About: Section Title", widget: string }
+          - { name: about_intro, label: "About: Intro (large text)", widget: text }
+          - { name: about_body, label: "About: Body text", widget: text }
+          - { name: about_location, label: "About: Location", widget: string }
+          - name: about_highlights
+            label: "About: Highlights (career bullets)"
+            widget: list
+            field: { name: text, label: Text, widget: string }
+
+          - { name: services_title, label: "Services: Section Title", widget: string }
+          - { name: services_subtitle, label: "Services: Subtitle", widget: string }
+          - name: services
+            label: "Services: Cards"
+            widget: list
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: description, label: Description, widget: text }
+              - name: icon
+                label: Icon
+                widget: select
+                options: [search, code, zap, chart, layers, users]
+
+          - { name: why_title, label: "Why Me: Section Title", widget: string }
+          - name: why_items
+            label: "Why Me: Cards"
+            widget: list
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: description, label: Description, widget: text }
+
+          - { name: pricing_title, label: "Pricing: Section Title", widget: string }
+          - { name: pricing_subtitle, label: "Pricing: Subtitle", widget: string }
+          - name: pricing_items
+            label: "Pricing: Cards"
+            widget: list
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: price, label: Price, widget: string }
+              - { name: description, label: Description, widget: text }
+              - { name: highlight, label: "Highlight (blue card)", widget: boolean, default: false }
+
+          - { name: contact_title, label: "Contact: Title", widget: string }
+          - { name: contact_subtitle, label: "Contact: Subtitle", widget: text }
+          - { name: contact_email_label, label: "Contact: Email Label", widget: string }
+          - { name: contact_email, label: "Contact: Email Address", widget: string }
+          - { name: contact_cta, label: "Contact: Email Button Text", widget: string }
+          - { name: contact_linkedin_label, label: "Contact: LinkedIn Label", widget: string }
+          - { name: contact_linkedin, label: "Contact: LinkedIn Button Text", widget: string }
+
+          - { name: footer_tagline, label: "Footer: Tagline", widget: string }
+          - { name: footer_location, label: "Footer: Location", widget: string }
+          - { name: footer_rights, label: "Footer: Rights text", widget: string }
+
+      - name: "spanish"
+        label: "🇪🇸 Spanish Content (Español)"
+        file: "src/content/es.json"
+        fields:
+          - { name: nav_services, label: "Nav: Servicios", widget: string }
+          - { name: nav_about, label: "Nav: Sobre mí", widget: string }
+          - { name: nav_pricing, label: "Nav: Precios", widget: string }
+          - { name: nav_contact, label: "Nav: Contacto", widget: string }
+          - { name: nav_cta, label: "Nav: Botón CTA", widget: string }
+
+          - { name: hero_label, label: "Hero: Etiqueta (texto pequeño)", widget: string }
+          - { name: hero_title, label: "Hero: Título (usa \\n para salto de línea)", widget: string }
+          - { name: hero_subtitle, label: "Hero: Subtítulo", widget: text }
+          - { name: hero_cta_primary, label: "Hero: Botón principal", widget: string }
+          - { name: hero_cta_secondary, label: "Hero: Botón secundario", widget: string }
+
+          - { name: about_title, label: "Sobre mí: Título de sección", widget: string }
+          - { name: about_intro, label: "Sobre mí: Intro (texto grande)", widget: text }
+          - { name: about_body, label: "Sobre mí: Cuerpo", widget: text }
+          - { name: about_location, label: "Sobre mí: Ubicación", widget: string }
+          - name: about_highlights
+            label: "Sobre mí: Puntos destacados"
+            widget: list
+            field: { name: text, label: Texto, widget: string }
+
+          - { name: services_title, label: "Servicios: Título", widget: string }
+          - { name: services_subtitle, label: "Servicios: Subtítulo", widget: string }
+          - name: services
+            label: "Servicios: Tarjetas"
+            widget: list
+            fields:
+              - { name: title, label: Título, widget: string }
+              - { name: description, label: Descripción, widget: text }
+              - name: icon
+                label: Icono
+                widget: select
+                options: [search, code, zap, chart, layers, users]
+
+          - { name: why_title, label: "Por qué yo: Título", widget: string }
+          - name: why_items
+            label: "Por qué yo: Tarjetas"
+            widget: list
+            fields:
+              - { name: title, label: Título, widget: string }
+              - { name: description, label: Descripción, widget: text }
+
+          - { name: pricing_title, label: "Precios: Título", widget: string }
+          - { name: pricing_subtitle, label: "Precios: Subtítulo", widget: string }
+          - name: pricing_items
+            label: "Precios: Tarjetas"
+            widget: list
+            fields:
+              - { name: title, label: Título, widget: string }
+              - { name: price, label: Precio, widget: string }
+              - { name: description, label: Descripción, widget: text }
+              - { name: highlight, label: "Destacar (tarjeta azul)", widget: boolean, default: false }
+
+          - { name: contact_title, label: "Contacto: Título", widget: string }
+          - { name: contact_subtitle, label: "Contacto: Subtítulo", widget: text }
+          - { name: contact_email_label, label: "Contacto: Etiqueta email", widget: string }
+          - { name: contact_email, label: "Contacto: Dirección email", widget: string }
+          - { name: contact_cta, label: "Contacto: Texto botón email", widget: string }
+          - { name: contact_linkedin_label, label: "Contacto: Etiqueta LinkedIn", widget: string }
+          - { name: contact_linkedin, label: "Contacto: Texto botón LinkedIn", widget: string }
+
+          - { name: footer_tagline, label: "Footer: Tagline", widget: string }
+          - { name: footer_location, label: "Footer: Ubicación", widget: string }
+          - { name: footer_rights, label: "Footer: Texto de derechos", widget: string }
