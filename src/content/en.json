@@ -1,7 +1,6 @@
 {
   "nav_services": "Services",
   "nav_about": "About",
-  "nav_pricing": "Pricing",
   "nav_contact": "Contact",
   "nav_cta": "Get in touch",
 
@@ -64,8 +63,8 @@
       "description": "Most consultants do one or the other. I cover the full cycle — from audit and roadmap to working solution and team adoption — so nothing falls through the cracks."
     },
     {
-      "title": "AI at real scale",
-      "description": "10+ AI solutions launched in production at Finom. 10M+ monthly users at Tinkoff. I know how AI behaves not in demos, but under real production load."
+      "title": "AI in production, not demos",
+      "description": "Customer support automation, intelligent chatbots, AI agents for repetitive workflows, recommendation engines, document processing, accounting automation — real applications built and running in production."
     },
     {
       "title": "Measurable results, not just tools",
@@ -77,48 +76,23 @@
     }
   ],
 
-  "pricing_title": "Pricing",
-  "pricing_subtitle": "A low threshold to start, a natural path to larger engagements.",
-  "pricing_items": [
-    {
-      "title": "Hourly Consulting",
-      "price": "from €100/h",
-      "description": "One-off consultations, audits and specific tasks.",
-      "highlight": false
-    },
-    {
-      "title": "AI Roadmap",
-      "price": "Fixed price",
-      "description": "Process diagnosis, tool selection, phased implementation plan with expected ROI.",
-      "highlight": false
-    },
-    {
-      "title": "AI Tools Setup",
-      "price": "from €700",
-      "description": "A configured AI solution — assistant, automation, or agent — tailored to your workflow.",
-      "highlight": true
-    },
-    {
-      "title": "AI Prototype / Solution",
-      "price": "from €2,500",
-      "description": "Full development of a functional prototype or deployed AI solution with documentation.",
-      "highlight": false
-    },
-    {
-      "title": "Retainer",
-      "price": "Monthly fee",
-      "description": "Ongoing support, improvements and evolution of your AI solutions.",
-      "highlight": false
-    }
-  ],
-
-  "contact_title": "Let's talk",
+  "contact_title": "Get in touch",
   "contact_subtitle": "Tell me about your business and what you'd like to automate or improve. I'll get back to you within 24 hours.",
   "contact_email_label": "Email",
-  "contact_email": "kolesnikovser1995@gmail.com",
+  "contact_email": "kolesnikov@phystech.edu",
   "contact_cta": "Send an email",
   "contact_linkedin_label": "LinkedIn",
   "contact_linkedin": "Connect on LinkedIn",
+  "contact_telegram_label": "Telegram",
+  "contact_telegram": "@serkolesnikov",
+
+  "form_title": "Leave a request",
+  "form_subtitle": "Enter your details and I'll get back to you within 24 hours.",
+  "form_name": "Your name",
+  "form_email": "Your email",
+  "form_message": "Tell me about your project or question...",
+  "form_submit": "Send request",
+  "form_success": "Thank you! I'll get back to you within 24 hours.",
 
   "footer_tagline": "AI & Product Consultant",
   "footer_location": "Tarragona, Catalonia, Spain",

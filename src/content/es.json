@@ -1,7 +1,6 @@
 {
   "nav_services": "Servicios",
   "nav_about": "Sobre mí",
-  "nav_pricing": "Precios",
   "nav_contact": "Contacto",
   "nav_cta": "Hablemos",
 
@@ -64,8 +63,8 @@
       "description": "La mayoría de los consultores hacen una cosa u otra. Yo cubro el ciclo completo — desde la auditoría y la hoja de ruta hasta la solución en funcionamiento y la adopción del equipo."
     },
     {
-      "title": "IA a escala real",
-      "description": "Más de 10 soluciones de IA lanzadas en producción en Finom. Más de 10M de usuarios mensuales en Tinkoff. Sé cómo se comporta la IA no en demostraciones, sino bajo carga real de producción."
+      "title": "IA en producción, no en demos",
+      "description": "Automatización de soporte al cliente, chatbots inteligentes, agentes de IA para flujos repetitivos, motores de recomendación, procesamiento de documentos, automatización contable — aplicaciones reales construidas y en producción."
     },
     {
       "title": "Resultados medibles, no solo herramientas",
@@ -77,48 +76,23 @@
     }
   ],
 
-  "pricing_title": "Precios",
-  "pricing_subtitle": "Un umbral de entrada bajo y un camino natural hacia proyectos de mayor envergadura.",
-  "pricing_items": [
-    {
-      "title": "Consultoría por Horas",
-      "price": "desde 100 €/h",
-      "description": "Consultas puntuales, auditorías y tareas específicas.",
-      "highlight": false
-    },
-    {
-      "title": "Plan de Implantación de IA",
-      "price": "Precio cerrado",
-      "description": "Diagnóstico de procesos, selección de herramientas, plan por fases con ROI esperado.",
-      "highlight": false
-    },
-    {
-      "title": "Configuración de Herramientas de IA",
-      "price": "desde 700 €",
-      "description": "Una solución de IA configurada — asistente, automatización o agente — adaptada a tu flujo de trabajo.",
-      "highlight": true
-    },
-    {
-      "title": "Prototipo / Solución de IA",
-      "price": "desde 2.500 €",
-      "description": "Desarrollo completo de un prototipo funcional o solución de IA implantada con documentación.",
-      "highlight": false
-    },
-    {
-      "title": "Acompañamiento (Retainer)",
-      "price": "Cuota mensual",
-      "description": "Soporte continuado, mejoras y evolución de tus soluciones de IA.",
-      "highlight": false
-    }
-  ],
-
   "contact_title": "Hablemos",
   "contact_subtitle": "Cuéntame sobre tu negocio y qué te gustaría automatizar o mejorar. Te respondo en menos de 24 horas.",
   "contact_email_label": "Email",
-  "contact_email": "kolesnikovser1995@gmail.com",
+  "contact_email": "kolesnikov@phystech.edu",
   "contact_cta": "Enviar email",
   "contact_linkedin_label": "LinkedIn",
   "contact_linkedin": "Conectar en LinkedIn",
+  "contact_telegram_label": "Telegram",
+  "contact_telegram": "@serkolesnikov",
+
+  "form_title": "Dejar una solicitud",
+  "form_subtitle": "Introduce tus datos y te respondo en menos de 24 horas.",
+  "form_name": "Tu nombre",
+  "form_email": "Tu email",
+  "form_message": "Cuéntame sobre tu proyecto o pregunta...",
+  "form_submit": "Enviar solicitud",
+  "form_success": "¡Gracias! Te responderé en menos de 24 horas.",
 
   "footer_tagline": "Consultor de IA y Producto Digital",
   "footer_location": "Tarragona, Cataluña, España",
