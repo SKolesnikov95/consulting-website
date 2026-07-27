@@ -638,8 +638,9 @@ footer { background: #f5f5f7; border-top: 1px solid rgba(0,0,0,0.07); padding: 2
 .footer-rights { font-size: 12px; color: #86868b; }
 
 /* ─── Animations ─── */
-.fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
-.fade-in.visible { opacity: 1; transform: translateY(0); }
+.fade-in { opacity: 1; }
+.js-ready .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.js-ready .fade-in.visible { opacity: 1; transform: translateY(0); }
 
 /* ─── Responsive ─── */
 @media (max-width: 860px) {
@@ -670,6 +671,9 @@ footer { background: #f5f5f7; border-top: 1px solid rgba(0,0,0,0.07); padding: 2
 </style>
 
 <script>
+// Mark JS as running — enables fade-in animations
+document.body.classList.add('js-ready');
+
 // ── Language ──
 function setLang(lang: string) {
   if (lang === 'es') document.body.classList.add('lang-es');
